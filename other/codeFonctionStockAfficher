@@ -1,0 +1,84 @@
+//On peut condenser les 2 fonctions en une seule.
+/*
+short afficherStockDisponible() {
+    FILE *fStock =fopen("./files/stock.txt","r");
+    FILE *fProduits = fopen("./files/produits.txt","r");
+
+    if( fStock && fProduits ) {
+        int maxLignesStock = filelines(fStock);
+        int maxLignesProduits = filelines(fProduits);
+        T_Produit produitEnStock;
+
+        fprintf(stdout,"-------------------------------------------------\n");
+        int numeroLigneProduits=1;
+        for(int numeroLigneStock=1;numeroLigneStock<maxLignesStock+1;numeroLigneStock++) {
+            fscanf(fStock,"%d %d",&(produitEnStock.code),&(produitEnStock.stock));
+            short produitTrouve=FALSE;
+            while( numeroLigneProduits != maxLignesProduits+1 && produitTrouve != TRUE ) {
+                T_Produit produitRecherche;
+                fscanf(fProduits,"%d %s %f",&(produitRecherche.code),produitRecherche.nom,&(produitRecherche.prix));
+
+                if( produitRecherche.code == produitEnStock.code ) {
+                    produitRecherche.stock=produitEnStock.stock;
+                    fprintf(stdout,"Produit trouvé : code %d - nom %s - prix %.2f - stock disponible : %d\n",produitRecherche.code,produitRecherche.nom,produitRecherche.prix,produitRecherche.stock);
+                    produitTrouve = TRUE;
+                }
+
+                numeroLigneProduits++;
+            }
+        }
+        fprintf(stdout,"-------------------------------------------------\n");
+        return TRUE;
+    }
+    else return FALSE;
+}
+
+// Afficher les produits non disponibles (code et nom)
+
+short afficherProduitsNonDisponibles() {
+    FILE *fStock =fopen("./files/stock.txt","r");
+    FILE *fProduits = fopen("./files/produits.txt","r");
+
+    if( fStock && fProduits ) {
+        int maxLignesStock = filelines(fStock);
+        int maxLignesProduits = filelines(fProduits);
+        T_Produit produitEnStock;
+
+
+        fprintf(stdout,"-------------------------------------------------\n");
+        //Pour chaque ligne de produit.txt
+        int numeroLigneProduits=1;
+
+        T_Produit produitActuel;
+        //Pour 4 produits en stock (61,1100,4273,5332), on a 5 itérations
+        for(int numeroLigneStock=1;numeroLigneStock<maxLignesStock+2;numeroLigneStock++) {
+            short produitTrouve=FALSE;
+            fscanf(fStock, "%d %d", &(produitEnStock.code), &(produitEnStock.stock));
+
+            // Deux cas possibles, soit on a toujours pas trouvé le produit en stock, soit on a fini le parcours des produits en stock
+            // Dans le deuxième cas, il faut quand même afficher les produits restants.
+            while( numeroLigneProduits != maxLignesProduits+1 && produitTrouve != TRUE) {
+                fscanf(fProduits,"%d %s %f",&(produitActuel.code),produitActuel.nom,&(produitActuel.prix));
+                //
+#ifdef __DEBUG__
+                fprintf(stdout," Debug - code %d : produitActuel.code = %d & produitEnStock = %d\n",produitEnStock.code,produitActuel.code,produitEnStock.code);
+#endif
+                if( produitActuel.code != produitEnStock.code) {
+                    fprintf(stdout,"Rupture de stock : code %d - nom %s - prix %.2f\n",produitActuel.code,produitActuel.nom,produitActuel.prix);
+                }
+                else {
+#ifdef __DEBUG__
+                    fprintf(stdout," Debug - code %d :produitActuel == produitEnStock\n",produitEnStock.code);
+#endif
+                    produitTrouve=TRUE;
+                }
+                numeroLigneProduits++;
+            }
+        }
+
+        return TRUE;
+    }
+    else return FALSE;
+
+}
+*/

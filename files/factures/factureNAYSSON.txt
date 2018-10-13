@@ -1,0 +1,11 @@
+Facture XXX - Client : NAYSSON
+
+Liste des produits achetés :
+produit 61 - intitulé : AGRAFEUSE - nombre de ventes : 5 - prix unitaire : 37.60 - prix total : 188.00
+produit 73 - intitulé : BOITE_D’AGRAFES - nombre de ventes : 10 - prix unitaire : 2.30 - prix total : 23.00
+produit 178 - intitulé : BOITE_DE_TROMBONES - nombre de ventes : 15 - prix unitaire : 3.05 - prix total : 45.75
+
+Coût total : 256.75
+-----------------------------------------------
+
+		Coût total cumulé des factures : 256.75

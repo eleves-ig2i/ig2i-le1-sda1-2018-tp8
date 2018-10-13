@@ -1,0 +1,24 @@
+Facture XXX - Client : BOSSUT
+
+Liste des produits achetés :
+produit 1100 - intitulé : COUPE_PAPIER - nombre de ventes : 10 - prix unitaire : 4.50 - prix total : 45.00
+produit 2172 - intitulé : TUBE_DE_COLLE - nombre de ventes : 2 - prix unitaire : 6.20 - prix total : 12.40
+produit 2183 - intitulé : BOITE_D’ELASTIQUES - nombre de ventes : 3 - prix unitaire : 11.25 - prix total : 33.75
+produit 6583 - intitulé : CRAYON_A_PAPIER - nombre de ventes : 3 - prix unitaire : 1.90 - prix total : 5.70
+produit 9834 - intitulé : GOMME - nombre de ventes : 10 - prix unitaire : 4.50 - prix total : 45.00
+
+Coût total : 141.85
+-----------------------------------------------
+Facture XXX - Client : BOSSUT
+
+Liste des produits achetés :
+produit 1100 - intitulé : COUPE_PAPIER - nombre de ventes : 10 - prix unitaire : 4.50 - prix total : 45.00
+produit 2172 - intitulé : TUBE_DE_COLLE - nombre de ventes : 2 - prix unitaire : 6.20 - prix total : 12.40
+produit 2183 - intitulé : BOITE_D’ELASTIQUES - nombre de ventes : 3 - prix unitaire : 11.25 - prix total : 33.75
+produit 6583 - intitulé : CRAYON_A_PAPIER - nombre de ventes : 3 - prix unitaire : 1.90 - prix total : 5.70
+produit 9834 - intitulé : GOMME - nombre de ventes : 10 - prix unitaire : 4.50 - prix total : 45.00
+
+Coût total : 141.85
+-----------------------------------------------
+
+		Coût total cumulé des factures : 283.70

@@ -1,0 +1,16 @@
+/*
+ * TP 10 : Top office
+ * Auteur : SALEZ NATHAN
+ */
+----------------------------------------------------------------------
+REPERTOIRES :
+- files : contient les fichiers utilisés pour ce TP
+- include : fichiers d'entête (*.h)
+- libsrc : code source des fichiers libfichier.c et calculerCA.c (*.c)
+- lib : fichiers objets (*.o)
+- other : code source non utilisé par l'exécutable.
+----------------------------------------------------------------------
+POUR EXECUTER LE PROGRAMME :
+- Avant d'exécuter le programme, taper la commande "make" dans le répertoire où se trouve le README.
+- Taper "./TP10.exe" pour utiliser le programme du TP10.
+----------------------------------------------------------------------
